@@ -66,10 +66,10 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
-		(start -1.5 -1.25)
-		(end -1.5 1.25)
+		(start -1.5 -1.2)
+		(end -1.5 1.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78,7 +78,7 @@
 		(uuid "79b6fa05-45ae-444e-9ab1-8eb398593771")
 	)
 	(fp_line
-		(start -1.25 1.5)
+		(start -1.2 1.5)
 		(end -0.5 1.5)
 		(stroke
 			(width 0.1)
@@ -99,7 +99,7 @@
 	)
 	(fp_line
 		(start -0.5 -1.5)
-		(end -1.25 -1.5)
+		(end -1.2 -1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -129,7 +129,7 @@
 	)
 	(fp_line
 		(start 0.5 1.5)
-		(end 1.25 1.5)
+		(end 1.2 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -148,7 +148,7 @@
 		(uuid "0dd83636-0537-4db7-8ffd-0eff5cdc4c80")
 	)
 	(fp_line
-		(start 1.25 -1.5)
+		(start 1.2 -1.5)
 		(end 0.5 -1.5)
 		(stroke
 			(width 0.1)
@@ -158,8 +158,8 @@
 		(uuid "754f38c2-1a20-40b9-a7a8-e55d83a49d8d")
 	)
 	(fp_line
-		(start 1.5 1.25)
-		(end 1.5 -1.25)
+		(start 1.5 1.2)
+		(end 1.5 -1.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -246,13 +246,13 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 7.25 0)
+		(end 6 0)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
-		(layer "F.CrtYd")
+		(layer "F.Fab")
 		(uuid "a5e046d3-4677-4e4c-8add-a9a708340329")
 	)
 	(fp_rect

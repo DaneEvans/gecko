@@ -2610,6 +2610,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6430,6 +6611,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 181.61) (xy 142.24 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b8524d-d18f-4362-a90e-65eebadae9d8")
+	)
+	(wire
+		(pts
 			(xy 96.52 110.49) (xy 105.41 110.49)
 		)
 		(stroke
@@ -7410,6 +7601,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 181.61) (xy 133.35 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26508f0-1a9a-4fc6-a0ac-3c990936f214")
+	)
+	(wire
+		(pts
 			(xy 269.24 252.73) (xy 269.24 255.27)
 		)
 		(stroke
@@ -7690,16 +7891,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 181.61) (xy 120.65 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d0ca1b-0b7e-4b9e-9abb-2563f0817062")
-	)
-	(wire
-		(pts
 			(xy 200.66 208.28) (xy 200.66 227.33)
 		)
 		(stroke
@@ -7770,7 +7961,7 @@
 	)
 	(text_box "Existing \nEXSW1 \nEXSW2 \n"
 		(exclude_from_sim no)
-		(at 314.96 93.98 0)
+		(at 347.98 165.1 0)
 		(size 11.43 24.13)
 		(stroke
 			(width 0)
@@ -7789,7 +7980,7 @@
 	)
 	(text_box "OLED uses SCL / SDA \n - GPIO 6/7\n - RE1A / REB \n\nCan drop the split hand pin"
 		(exclude_from_sim no)
-		(at 349.25 100.33 0)
+		(at 365.76 144.78 0)
 		(size 38.1 19.05)
 		(stroke
 			(width 0)
@@ -7806,9 +7997,49 @@
 		)
 		(uuid "5862ceca-dbe0-4b10-a5d3-956c0e3ac2d0")
 	)
+	(text_box "Multiple could be populated - but won't operate separately. \n\nOne encoder (RE1_x) Should be usable while the OLED is used. \nThe second will only work without an OLED.\n\n"
+		(exclude_from_sim no)
+		(at 325.12 109.22 0)
+		(size 33.02 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8d3b8b08-05d2-478b-b163-e38192119aa3")
+	)
+	(text_box "Split hand pin is in the process of being dropped \n- USB_Vbus, USB comms, or hard coded into the firmware should be available to distinguish sides. \n\nThis pin has been repurposed to the common encoder pin, to allow an encoder + oled. "
+		(exclude_from_sim no)
+		(at 124.46 187.96 0)
+		(size 50.8 25.4)
+		(stroke
+			(width 0)
+			(type default)
+			(color 159 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 122 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "9ed0c0b5-e019-4300-b7e8-4ceed906ff28")
+	)
 	(text_box "mapping \n\nEXSW1 -> RE1 \n      \\-> EX1  SW22\nEXSW2 -> EX2  SW23\n       \\-> RE2 \n\n\nSideSelect    ->  SW ... "
 		(exclude_from_sim no)
-		(at 316.23 128.27 0)
+		(at 345.44 195.58 0)
 		(size 38.1 19.05)
 		(stroke
 			(width 0)
@@ -7827,8 +8058,8 @@
 	)
 	(text_box "Wanted:\nRE1 \nSW22"
 		(exclude_from_sim no)
-		(at 330.2 93.98 0)
-		(size 11.43 24.13)
+		(at 360.68 165.1 0)
+		(size 15.24 24.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -7943,6 +8174,17 @@
 		)
 		(uuid "6baa8233-b4e4-4ffa-beb9-69f461a547c7")
 	)
+	(text "SPLIT_HAND_PIN"
+		(exclude_from_sim no)
+		(at 120.396 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7472b86c-4708-4cfc-a369-8d721c61bc29")
+	)
 	(text "LEDs"
 		(exclude_from_sim no)
 		(at 234.442 182.499 0)
@@ -7965,6 +8207,16 @@
 		)
 		(uuid "ab602c60-ddd0-4892-abb9-1575c4d251d0")
 	)
+	(text "Rotary Encoders - use one of each row"
+		(exclude_from_sim no)
+		(at 305.816 92.964 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "abcf774a-c080-4461-ad42-42251f6f9794")
+	)
 	(text "TRS"
 		(exclude_from_sim no)
 		(at 265.43 23.241 0)
@@ -7986,17 +8238,6 @@
 			(justify left bottom)
 		)
 		(uuid "c81bcd0f-ad8c-4358-a7b0-75ab1b55223d")
-	)
-	(text "SPLIT_HAND_PIN"
-		(exclude_from_sim no)
-		(at 122.555 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e624b983-61c3-4705-9bc7-1c9cd044db31")
 	)
 	(text "boot switch"
 		(exclude_from_sim no)
@@ -8173,17 +8414,6 @@
 			(justify left bottom)
 		)
 		(uuid "1973c083-f7d2-47c1-80d9-f8b797c5b19f")
-	)
-	(label "REB"
-		(at 111.76 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d097707-0bfa-4b11-be28-266e48aa3c80")
 	)
 	(label "D-"
 		(at 55.88 138.43 180)
@@ -8404,6 +8634,17 @@
 			(justify left bottom)
 		)
 		(uuid "676ff885-b3d2-4262-bb16-b37dbeada6f1")
+	)
+	(label "REB"
+		(at 111.76 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68f0583b-77bb-4409-a9e9-39c1bc69e64d")
 	)
 	(label "KEY10"
 		(at 111.76 201.93 0)
@@ -9440,7 +9681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 214.63 224.79 0)
 			(effects
 				(font
@@ -9731,7 +9972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 229.87 0)
 			(effects
 				(font
@@ -9880,7 +10121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 205.74 0)
 			(effects
 				(font
@@ -11050,7 +11291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 214.63 205.74 0)
 			(effects
 				(font
@@ -11339,7 +11580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 224.79 0)
 			(effects
 				(font
@@ -11418,7 +11659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 242.57 0)
 			(effects
 				(font
@@ -12068,7 +12309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 210.82 0)
 			(effects
 				(font
@@ -12323,10 +12564,6 @@
 					(reference "BT2")
 					(unit 1)
 				)
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "BT2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -12428,7 +12665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 217.17 210.82 0)
 			(effects
 				(font
@@ -12572,7 +12809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 186.69 247.65 0)
 			(effects
 				(font
@@ -13135,7 +13372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 217.17 229.87 0)
 			(effects
 				(font
@@ -13458,7 +13695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 186.69 210.82 0)
 			(effects
 				(font
@@ -13599,7 +13836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "EC05E"
 			(at 299.974 158.496 90)
 			(effects
 				(font
@@ -14149,75 +14386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d972f02-3954-4da9-88ee-2197b64c06f0")
-		(property "Reference" "#PWR?"
-			(at 120.65 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 120.65 177.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c344428-cbca-44c3-bd23-dccf5183f950")
-		)
-		(instances
-			(project "corne-cherry"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 115.57 0)
 		(unit 1)
@@ -14314,7 +14482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 265.43 0)
 			(effects
 				(font
@@ -14675,7 +14843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 205.74 0)
 			(effects
 				(font
@@ -14754,7 +14922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 214.63 260.35 0)
 			(effects
 				(font
@@ -15295,7 +15463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 217.17 265.43 0)
 			(effects
 				(font
@@ -15370,7 +15538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 260.35 0)
 			(effects
 				(font
@@ -16080,10 +16248,6 @@
 					(reference "BT3")
 					(unit 1)
 				)
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "BT3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -16576,10 +16740,6 @@
 					(reference "BT4")
 					(unit 1)
 				)
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "BT4")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -16935,7 +17095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "EC05E_vert"
 			(at 267.208 121.666 90)
 			(effects
 				(font
@@ -17212,7 +17372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "EC05E"
 			(at 283.464 158.496 90)
 			(effects
 				(font
@@ -17621,6 +17781,74 @@
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 137.16 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b086ccfe-7358-472a-9efe-0e09db7d7bee")
+		(property "Reference" "JP2"
+			(at 137.414 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 137.16 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 137.16 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 137.16 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "922547f9-0273-494f-b608-f687f01da83e")
+		)
+		(pin "1"
+			(uuid "a3af993d-e05f-4778-99bf-320f3fcf7cc7")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -18287,7 +18515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 217.17 247.65 0)
 			(effects
 				(font
@@ -18437,7 +18665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 214.63 242.57 0)
 			(effects
 				(font
@@ -18588,7 +18816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "EC05E"
 			(at 283.464 121.412 90)
 			(effects
 				(font
@@ -19314,7 +19542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 247.65 0)
 			(effects
 				(font
@@ -19393,7 +19621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 260.35 0)
 			(effects
 				(font
@@ -19463,7 +19691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "EC05E"
 			(at 299.72 121.92 90)
 			(effects
 				(font
@@ -19478,6 +19706,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -19580,6 +19809,72 @@
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 142.24 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db63385f-d233-424e-afc1-71916c2cc2ce")
+		(property "Reference" "#PWR022"
+			(at 142.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 142.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c136b5-b576-40a3-911d-4f28553d05d8")
+		)
+		(instances
+			(project "Gecko_choc"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -19891,7 +20186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 242.57 0)
 			(effects
 				(font
@@ -20196,7 +20491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 224.79 0)
 			(effects
 				(font
@@ -20485,7 +20780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 186.69 229.87 0)
 			(effects
 				(font
@@ -20776,7 +21071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "EC05E_vert"
 			(at 266.7 158.496 90)
 			(effects
 				(font
@@ -21032,10 +21327,6 @@
 		(instances
 			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "BT1")
-					(unit 1)
-				)
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "BT1")
 					(unit 1)
 				)

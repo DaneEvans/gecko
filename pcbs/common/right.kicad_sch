@@ -2610,6 +2610,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6598,16 +6779,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 181.61) (xy 133.35 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b2020fe-ce46-412c-86d9-b5d8df8a7f12")
-	)
-	(wire
-		(pts
 			(xy 177.8 193.04) (xy 203.2 193.04)
 		)
 		(stroke
@@ -7048,6 +7219,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 181.61) (xy 135.89 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d51172-9445-41a3-adbc-3b7ea1755832")
+	)
+	(wire
+		(pts
 			(xy 195.58 227.33) (xy 195.58 245.11)
 		)
 		(stroke
@@ -7365,6 +7546,16 @@
 			(type default)
 		)
 		(uuid "c8678ad1-96e6-4efa-a778-950ffc561ef2")
+	)
+	(wire
+		(pts
+			(xy 143.51 181.61) (xy 144.78 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca72f7ea-11ef-49bb-8cca-c54b6e7e2424")
 	)
 	(wire
 		(pts
@@ -7706,6 +7897,46 @@
 		)
 		(uuid "ff7bf145-826c-4e04-b705-9c396f230f2d")
 	)
+	(text_box "Multiple could be populated - but won't operate separately. \n\nOne encoder (0?) Should be usable while the OLED is used. \nThe second will only work without an OLED.\n\n"
+		(exclude_from_sim no)
+		(at 337.82 104.14 0)
+		(size 33.02 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "08bb5644-a2d7-42ba-a974-5ba56784c1ba")
+	)
+	(text_box "Split hand pin is in the process of being dropped \n- USB_Vbus, USB comms, or hard coded into the firmware should be available to distinguish sides. \n\nThis pin has been repurposed to the common encoder pin, to allow an encoder + oled. "
+		(exclude_from_sim no)
+		(at 119.38 190.5 0)
+		(size 50.8 25.4)
+		(stroke
+			(width 0)
+			(type default)
+			(color 159 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 122 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "21bb261d-c3a4-410d-8932-8f6fbf0fe08d")
+	)
 	(text_box "OLED. "
 		(exclude_from_sim no)
 		(at 123.19 142.24 0)
@@ -7901,6 +8132,16 @@
 		)
 		(uuid "f0b7fd87-9b2f-4b04-a5f3-00e3e0b47f1d")
 	)
+	(text "Rotary Encoders - use one of each row"
+		(exclude_from_sim no)
+		(at 304.546 97.79 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "fbcc30f5-c364-4a08-b0ce-bda84ea6dd7f")
+	)
 	(label "KEY23"
 		(at 204.47 153.67 90)
 		(fields_autoplaced yes)
@@ -7913,7 +8154,7 @@
 		(uuid "004ed04b-c9c3-46a1-8ee7-769e50ff8c65")
 	)
 	(label "REB"
-		(at 325.12 111.76 90)
+		(at 317.5 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7946,7 +8187,7 @@
 		(uuid "0714a1f5-d2ad-46b8-8a56-4283c241c4c9")
 	)
 	(label "REB"
-		(at 327.66 139.7 90)
+		(at 317.5 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7979,7 +8220,7 @@
 		(uuid "1868ecdc-5506-44c5-9e95-ea9922867514")
 	)
 	(label "RE0A"
-		(at 270.51 111.76 90)
+		(at 274.32 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8254,7 +8495,7 @@
 		(uuid "521704fd-f924-468c-b592-2eff562906b0")
 	)
 	(label "REB"
-		(at 294.64 139.7 90)
+		(at 293.37 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8265,7 +8506,7 @@
 		(uuid "538ae7d4-15f1-4d16-b5a1-07b2d7f98568")
 	)
 	(label "RE1A"
-		(at 332.74 139.7 90)
+		(at 322.58 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8320,7 +8561,7 @@
 		(uuid "5fe7c6f9-cb52-4c73-af3b-996a563ca634")
 	)
 	(label "RE0A"
-		(at 330.2 111.76 90)
+		(at 322.58 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8451,17 +8692,6 @@
 		)
 		(uuid "8291e761-bc13-4e31-9c48-1d4db0077b96")
 	)
-	(label "REB"
-		(at 106.68 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82e649ca-486a-4844-948a-39a1b58062ee")
-	)
 	(label "KEY1"
 		(at 243.84 153.67 90)
 		(fields_autoplaced yes)
@@ -8507,7 +8737,7 @@
 		(uuid "91c5911b-9ea8-4270-8ccc-e36ef0f791b9")
 	)
 	(label "REB"
-		(at 293.37 111.76 90)
+		(at 293.37 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8639,7 +8869,7 @@
 		(uuid "a3b232d0-0fe0-4790-81e4-bfbe270cd727")
 	)
 	(label "REB"
-		(at 265.43 140.97 90)
+		(at 269.24 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8650,7 +8880,7 @@
 		(uuid "aa2535f7-195c-4b72-8856-8f1276223407")
 	)
 	(label "RE1A"
-		(at 299.72 139.7 90)
+		(at 298.45 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8672,7 +8902,7 @@
 		(uuid "b0b21119-ee9b-40a6-baac-cc199e5c2408")
 	)
 	(label "RE1A"
-		(at 270.51 140.97 90)
+		(at 274.32 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8738,7 +8968,7 @@
 		(uuid "c68722c7-f1ef-42b6-a613-c1818509eb4b")
 	)
 	(label "REB"
-		(at 265.43 111.76 90)
+		(at 269.24 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8769,6 +8999,17 @@
 			(justify right bottom)
 		)
 		(uuid "d36aacde-46ba-415c-a35d-b991a1e15159")
+	)
+	(label "REB"
+		(at 106.68 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d39d6fd5-0588-4593-b096-33e75902659e")
 	)
 	(label "SWCLK"
 		(at 328.93 44.45 0)
@@ -8892,7 +9133,7 @@
 		(uuid "ec3173af-de1c-409c-8056-18c0865920f7")
 	)
 	(label "RE0A"
-		(at 298.45 111.76 90)
+		(at 298.45 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9094,7 +9335,7 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 327.66 111.76 180)
+		(at 320.04 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9102,7 +9343,7 @@
 		(dnp no)
 		(uuid "01c8aa53-b2de-4b5c-8fcb-464b5edd1d4b")
 		(property "Reference" "#PWR085"
-			(at 327.66 105.41 0)
+			(at 320.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9352,7 @@
 			)
 		)
 		(property "Value" "GNDR"
-			(at 327.66 106.68 90)
+			(at 320.04 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +9360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 111.76 0)
+			(at 320.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +9369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 111.76 0)
+			(at 320.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +9378,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 111.76 0)
+			(at 320.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9400,7 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 330.2 139.7 180)
+		(at 320.04 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9167,7 +9408,7 @@
 		(dnp no)
 		(uuid "01d10134-ea5f-49aa-9b2f-051eac001bd7")
 		(property "Reference" "#PWR087"
-			(at 330.2 133.35 0)
+			(at 320.04 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9417,7 @@
 			)
 		)
 		(property "Value" "GNDR"
-			(at 330.2 134.62 90)
+			(at 320.04 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 139.7 0)
+			(at 320.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 139.7 0)
+			(at 320.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 139.7 0)
+			(at 320.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 240.03 242.57 0)
 			(effects
 				(font
@@ -9989,7 +10230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 242.57 210.82 0)
 			(effects
 				(font
@@ -10125,7 +10366,7 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 267.97 140.97 180)
+		(at 271.78 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10133,7 +10374,7 @@
 		(dnp no)
 		(uuid "16e8b12f-44d4-489d-809b-1c39b17abae4")
 		(property "Reference" "#PWR?"
-			(at 267.97 134.62 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,7 +10383,7 @@
 			)
 		)
 		(property "Value" "GNDR"
-			(at 267.97 135.89 90)
+			(at 271.78 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +10391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 140.97 0)
+			(at 271.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 140.97 0)
+			(at 271.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 140.97 0)
+			(at 271.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10846,7 +11087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 209.55 205.74 0)
 			(effects
 				(font
@@ -10902,7 +11143,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rLED18")
+					(reference "rLED20")
 					(unit 1)
 				)
 			)
@@ -11088,7 +11329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 240.03 224.79 0)
 			(effects
 				(font
@@ -11697,7 +11938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 242.57 247.65 0)
 			(effects
 				(font
@@ -12078,7 +12319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "403045cd-7221-4ef4-9f3a-9ee13d763185")
-		(property "Reference" "rEXLED1"
+		(property "Reference" "rLED17"
 			(at 208.915 268.605 0)
 			(effects
 				(font
@@ -12096,7 +12337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 209.55 260.35 0)
 			(effects
 				(font
@@ -12138,7 +12379,7 @@
 		(instances
 			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rEXLED1")
+					(reference "rLED17")
 					(unit 1)
 				)
 			)
@@ -12326,7 +12567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 242.57 265.43 0)
 			(effects
 				(font
@@ -12628,16 +12869,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 267.97 148.59 270)
+		(at 271.78 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e1a750b-a37f-4913-a8fe-3593aad38f91")
 		(property "Reference" "rRE2"
-			(at 274.32 147.3199 90)
+			(at 278.384 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12645,8 +12885,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 274.32 149.8599 90)
+		(property "Value" "EC05E_vert"
+			(at 278.384 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12655,7 +12895,7 @@
 			)
 		)
 		(property "Footprint" "kbd:rotary_encoder_EC05E_Vert"
-			(at 272.034 144.78 0)
+			(at 275.844 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +12904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.574 148.59 0)
+			(at 278.384 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,7 +12913,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 267.97 148.59 0)
+			(at 271.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,7 +13046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 240.03 205.74 0)
 			(effects
 				(font
@@ -12895,7 +13135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 270.51 205.74 0)
 			(effects
 				(font
@@ -13367,16 +13607,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 267.97 119.38 270)
+		(at 271.78 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55d03075-620c-48b6-9ff5-8a4205809149")
 		(property "Reference" "rRE1"
-			(at 274.32 118.1099 90)
+			(at 278.13 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13384,8 +13623,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 274.32 120.6499 90)
+		(property "Value" "EC05E_vert"
+			(at 278.13 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13394,7 +13633,7 @@
 			)
 		)
 		(property "Footprint" "kbd:rotary_encoder_EC05E_Vert"
-			(at 272.034 115.57 0)
+			(at 275.844 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.574 119.38 0)
+			(at 278.384 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13651,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 267.97 119.38 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13745,16 +13984,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 295.91 119.38 270)
+		(at 295.91 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5e167b51-cec6-429f-a3cb-2a5acd3595bc")
 		(property "Reference" "rRE1-2"
-			(at 302.26 118.1099 90)
+			(at 302.514 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13762,8 +14000,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 302.26 120.6499 90)
+		(property "Value" "EC05E"
+			(at 302.514 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13772,15 +14010,17 @@
 			)
 		)
 		(property "Footprint" "kbd:rotary_encoder_EC05E"
-			(at 299.974 115.57 0)
+			(at 302.26 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 302.514 119.38 0)
+			(at 302.514 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +14029,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 295.91 119.38 0)
+			(at 295.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14028,16 +14268,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 330.2 147.32 270)
+		(at 320.04 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "676e7231-51e3-4f54-9a5a-520ddbc87dd0")
 		(property "Reference" "rRE2-3"
-			(at 336.55 146.0499 90)
+			(at 326.39 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14045,8 +14284,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 336.55 148.5899 90)
+		(property "Value" "EC05E"
+			(at 326.39 149.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14055,7 +14294,7 @@
 			)
 		)
 		(property "Footprint" "kbd:rotary_encoder_EC05E"
-			(at 334.264 143.51 0)
+			(at 324.104 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14064,7 +14303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.804 147.32 0)
+			(at 326.644 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14073,7 +14312,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 330.2 147.32 0)
+			(at 320.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14262,16 +14501,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 297.18 147.32 270)
+		(at 295.91 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ce6ccc9-3d63-402c-b35e-d44a62f1d1bf")
 		(property "Reference" "rRE2-2"
-			(at 303.53 146.0499 90)
+			(at 302.26 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14279,8 +14517,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 303.53 148.5899 90)
+		(property "Value" "EC05E"
+			(at 302.26 149.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14289,7 +14527,7 @@
 			)
 		)
 		(property "Footprint" "kbd:rotary_encoder_EC05E"
-			(at 301.244 143.51 0)
+			(at 299.974 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14298,7 +14536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 303.784 147.32 0)
+			(at 302.514 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14307,7 +14545,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 297.18 147.32 0)
+			(at 295.91 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,7 +14894,7 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 295.91 111.76 180)
+		(at 295.91 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14664,7 +14902,7 @@
 		(dnp no)
 		(uuid "723b7fb6-ed4f-46fe-bdf5-f20e30759d3d")
 		(property "Reference" "#PWR084"
-			(at 295.91 105.41 0)
+			(at 295.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14673,7 +14911,7 @@
 			)
 		)
 		(property "Value" "GNDR"
-			(at 295.91 106.68 90)
+			(at 295.91 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14681,7 +14919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 111.76 0)
+			(at 295.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14690,7 +14928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 111.76 0)
+			(at 295.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14699,7 +14937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 295.91 111.76 0)
+			(at 295.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15475,6 +15713,72 @@
 		)
 	)
 	(symbol
+		(lib_id "kbd:GNDR")
+		(at 144.78 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e63e0e1-b6d9-4d53-9394-a1a3e44678dd")
+		(property "Reference" "#PWR076"
+			(at 144.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDR"
+			(at 144.78 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf7b9aa-ae93-4310-8643-fc3c5a872609")
+		)
+		(instances
+			(project "Gecko_choc"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 184.15 90)
 		(unit 1)
@@ -15667,7 +15971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 240.03 260.35 0)
 			(effects
 				(font
@@ -15756,7 +16060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 181.61 247.65 0)
 			(effects
 				(font
@@ -15812,7 +16116,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rLED21")
+					(reference "rLED23")
 					(unit 1)
 				)
 			)
@@ -16232,7 +16536,7 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 297.18 139.7 180)
+		(at 295.91 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16240,7 +16544,7 @@
 		(dnp no)
 		(uuid "8e534553-754c-47bf-ac78-0478902a872b")
 		(property "Reference" "#PWR086"
-			(at 297.18 133.35 0)
+			(at 295.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16249,7 +16553,7 @@
 			)
 		)
 		(property "Value" "GNDR"
-			(at 297.18 134.62 90)
+			(at 295.91 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16257,7 +16561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 139.7 0)
+			(at 295.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16266,7 +16570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 139.7 0)
+			(at 295.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16275,7 +16579,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 139.7 0)
+			(at 295.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16376,7 +16680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8efbbe04-c4db-4c0b-960f-eb49db9657a8")
-		(property "Reference" "rEXLED2"
+		(property "Reference" "rLED16"
 			(at 212.725 257.175 0)
 			(effects
 				(font
@@ -16394,7 +16698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 212.09 265.43 0)
 			(effects
 				(font
@@ -16436,7 +16740,7 @@
 		(instances
 			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rEXLED2")
+					(reference "rLED16")
 					(unit 1)
 				)
 			)
@@ -16469,7 +16773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 270.51 242.57 0)
 			(effects
 				(font
@@ -16964,7 +17268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 181.61 229.87 0)
 			(effects
 				(font
@@ -17020,7 +17324,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rLED20")
+					(reference "rLED22")
 					(unit 1)
 				)
 			)
@@ -18169,7 +18473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 212.09 210.82 0)
 			(effects
 				(font
@@ -18258,7 +18562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 209.55 242.57 0)
 			(effects
 				(font
@@ -18314,7 +18618,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rLED16")
+					(reference "rLED18")
 					(unit 1)
 				)
 			)
@@ -18347,7 +18651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 181.61 210.82 0)
 			(effects
 				(font
@@ -18403,7 +18707,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rLED19")
+					(reference "rLED21")
 					(unit 1)
 				)
 			)
@@ -18557,16 +18861,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 327.66 119.38 270)
+		(at 320.04 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bdb2bf80-0858-4720-8797-a6b00ca1a154")
 		(property "Reference" "rRE1-3"
-			(at 334.01 118.1099 90)
+			(at 326.39 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18574,8 +18877,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 334.01 120.6499 90)
+		(property "Value" "EC05E"
+			(at 326.39 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18584,7 +18887,7 @@
 			)
 		)
 		(property "Footprint" "kbd:rotary_encoder_EC05E"
-			(at 331.724 115.57 0)
+			(at 324.104 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18593,7 +18896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.264 119.38 0)
+			(at 326.644 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18602,7 +18905,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 327.66 119.38 0)
+			(at 320.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19309,7 +19612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 270.51 224.79 0)
 			(effects
 				(font
@@ -19398,7 +19701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 270.51 260.35 0)
 			(effects
 				(font
@@ -19487,7 +19790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 209.55 224.79 0)
 			(effects
 				(font
@@ -19543,7 +19846,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rLED17")
+					(reference "rLED19")
 					(unit 1)
 				)
 			)
@@ -20778,78 +21081,6 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 133.35 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0e94132-287e-43a0-8847-cbefc1533191")
-		(property "Reference" "#PWR076"
-			(at 133.35 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDR"
-			(at 133.35 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d13fbb4-d1c5-483c-8dbe-7b40d8d320a5")
-		)
-		(instances
-			(project "right"
-				(path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-			(project "Gecko_choc"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kbd:GNDR")
 		(at 68.58 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21013,7 +21244,7 @@
 	)
 	(symbol
 		(lib_id "kbd:GNDR")
-		(at 267.97 111.76 180)
+		(at 271.78 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21021,7 +21252,7 @@
 		(dnp no)
 		(uuid "e39d438f-8a5a-47a2-bb96-6a5953bf2dba")
 		(property "Reference" "#PWR?"
-			(at 267.97 105.41 0)
+			(at 271.78 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21030,7 +21261,7 @@
 			)
 		)
 		(property "Value" "GNDR"
-			(at 267.97 106.68 90)
+			(at 271.78 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21038,7 +21269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 111.76 0)
+			(at 271.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21047,7 +21278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 111.76 0)
+			(at 271.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21056,7 +21287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 111.76 0)
+			(at 271.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21117,7 +21348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 242.57 229.87 0)
 			(effects
 				(font
@@ -21292,7 +21523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 212.09 247.65 0)
 			(effects
 				(font
@@ -22157,6 +22388,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 139.7 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb80064c-19d8-4231-9380-27d1b253939f")
+		(property "Reference" "JP3"
+			(at 139.7 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 139.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3170cb8-e2d4-4a3d-b50d-ec838a6728e1")
+		)
+		(pin "1"
+			(uuid "5ff5ee04-fc91-4299-a878-94db19904296")
+		)
+		(instances
+			(project "Gecko_choc"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kbd_local:YS-SK6812MINI-E")
 		(at 218.44 227.33 270)
 		(unit 1)
@@ -22183,7 +22482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 212.09 229.87 0)
 			(effects
 				(font

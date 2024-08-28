@@ -5,10 +5,11 @@
 	(uuid "04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e")
 	(paper "A3")
 	(title_block
-		(title "Corne Right")
+		(title "Gecko Right")
 		(date "2023-10-07")
-		(rev "4.0.0")
-		(company "foostan")
+		(rev "1.0.0")
+		(company "Dane Evans")
+		(comment 1 "original: foostan's crkbd 4.1")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
@@ -9148,7 +9149,7 @@
 			(uuid "d7a46929-f079-4c8b-8d44-27065424d9aa")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR085")
 					(unit 1)
@@ -9213,7 +9214,7 @@
 			(uuid "7be2cdca-ae63-4d4e-9c45-8d92a1e2b017")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR087")
 					(unit 1)
@@ -9457,7 +9458,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR070")
 					(unit 1)
@@ -10114,7 +10115,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR065")
 					(unit 1)
@@ -11052,7 +11053,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR069")
 					(unit 1)
@@ -12060,7 +12061,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rBT4")
 					(unit 1)
@@ -12135,7 +12136,7 @@
 			(uuid "02aba17d-9222-42be-8f56-546277886774")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rEXLED1")
 					(unit 1)
@@ -12290,7 +12291,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR066")
 					(unit 1)
@@ -12690,7 +12691,7 @@
 			(uuid "fa886d01-4b63-4adb-bf71-88fe8d09f7f0")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rRE2")
 					(unit 1)
@@ -13429,7 +13430,7 @@
 			(uuid "167539de-9cc8-47cc-a81d-560473bb060f")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rRE1")
 					(unit 1)
@@ -13495,7 +13496,7 @@
 			(uuid "f9023341-579b-46a7-91a4-1f3d80d68d4b")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR059")
 					(unit 1)
@@ -13806,7 +13807,7 @@
 			(uuid "a8effc77-10be-426a-bf87-68dfc597cce0")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rRE1-2")
 					(unit 1)
@@ -13878,7 +13879,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR073")
 					(unit 1)
@@ -13950,7 +13951,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR068")
 					(unit 1)
@@ -14017,7 +14018,7 @@
 			(uuid "830e5cea-3de7-4873-84fb-7a4daf82fedd")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rSW22")
 					(unit 1)
@@ -14090,7 +14091,7 @@
 			(uuid "e3650108-ea6e-404a-ac3a-f050cc22da6d")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rRE2-3")
 					(unit 1)
@@ -14324,7 +14325,7 @@
 			(uuid "15256271-2da0-47f5-9dc3-815b078b3193")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rRE2-2")
 					(unit 1)
@@ -14564,7 +14565,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR07")
 					(unit 1)
@@ -14710,7 +14711,7 @@
 			(uuid "92be3e22-1330-4449-9418-ef67cc50c09c")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR084")
 					(unit 1)
@@ -15142,7 +15143,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR075")
 					(unit 1)
@@ -16286,7 +16287,7 @@
 			(uuid "3da76c4e-cca9-4296-996b-229bde39593d")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR086")
 					(unit 1)
@@ -16358,7 +16359,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR072")
 					(unit 1)
@@ -16433,7 +16434,7 @@
 			(uuid "1b8b9aba-07df-4d98-a4f2-b1665d09490a")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rEXLED2")
 					(unit 1)
@@ -17820,7 +17821,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR067")
 					(unit 1)
@@ -18053,7 +18054,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR071")
 					(unit 1)
@@ -18546,7 +18547,7 @@
 			(uuid "f595f203-3717-458d-a5e6-b36820965cab")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR074")
 					(unit 1)
@@ -18619,7 +18620,7 @@
 			(uuid "6f9eb36e-1759-4ca7-9be5-28e4ed005f93")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rRE1-3")
 					(unit 1)
@@ -18948,7 +18949,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rBT3")
 					(unit 1)
@@ -19686,7 +19687,7 @@
 			(uuid "cab1355b-55b6-4f7e-accb-11d2d07b6495")
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rSW23")
 					(unit 1)
@@ -19842,7 +19843,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rJP1")
 					(unit 1)
@@ -20349,7 +20350,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rBT1")
 					(unit 1)
@@ -20839,7 +20840,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR076")
 					(unit 1)
@@ -22306,7 +22307,7 @@
 					(unit 1)
 				)
 			)
-			(project "corne-cherry"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "rBT2")
 					(unit 1)

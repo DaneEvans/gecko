@@ -5,10 +5,11 @@
 	(uuid "4cc5d416-57f5-4147-8183-e03ae6b1198a")
 	(paper "A5")
 	(title_block
-		(title "Corne")
+		(title "Gecko kbd")
 		(date "2024-05-07")
-		(rev "4.1.0")
-		(company "foostan")
+		(rev "1.0.0")
+		(company "Dane Evans")
+		(comment 1 "original: foostan's crkbd 4.1")
 	)
 	(lib_symbols)
 	(sheet
@@ -32,7 +33,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../common/left.kicad_sch"
+		(property "Sheetfile" "../common/left.kicad_sch"
 			(at 26.67 81.8646 0)
 			(effects
 				(font
@@ -42,7 +43,7 @@
 			)
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(page "2")
 				)
@@ -70,7 +71,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../common/right.kicad_sch"
+		(property "Sheetfile" "../common/right.kicad_sch"
 			(at 86.36 83.1346 0)
 			(effects
 				(font
@@ -80,7 +81,7 @@
 			)
 		)
 		(instances
-			(project "corne-chocolate"
+			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(page "3")
 				)

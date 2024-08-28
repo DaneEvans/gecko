@@ -9829,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 241.3 102.87 0)
 			(effects
 				(font
@@ -10269,7 +10269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 254 102.87 0)
 			(effects
 				(font
@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -10622,7 +10622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 241.3 133.35 0)
 			(effects
 				(font
@@ -11081,7 +11081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 190.5 133.35 0)
 			(effects
 				(font
@@ -11152,7 +11152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 200.66 148.59 0)
 			(effects
 				(font
@@ -11437,7 +11437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -11889,7 +11889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -11960,7 +11960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 214.63 148.59 0)
 			(effects
 				(font
@@ -12386,7 +12386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1.5u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1.5u"
 			(at 254 148.59 0)
 			(effects
 				(font
@@ -12457,7 +12457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 215.9 118.11 0)
 			(effects
 				(font
@@ -12531,7 +12531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 264.16 0)
 			(effects
 				(font
@@ -12592,7 +12592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 203.2 118.11 0)
 			(effects
 				(font
@@ -13772,7 +13772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 203.2 133.35 0)
 			(effects
 				(font
@@ -13985,7 +13985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 215.9 133.35 0)
 			(effects
 				(font
@@ -14056,7 +14056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -16141,7 +16141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 254 133.35 0)
 			(effects
 				(font
@@ -16215,7 +16215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 270.51 0)
 			(effects
 				(font
@@ -16484,7 +16484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:OLED"
+		(property "Footprint" "kbd:OLED"
 			(at 308.61 44.45 0)
 			(effects
 				(font
@@ -16707,7 +16707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 276.86 0)
 			(effects
 				(font
@@ -16977,7 +16977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:TYPE-C-31-M-13C"
+		(property "Footprint" "kbd:TYPE-C-31-M-13C"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -17665,7 +17665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 228.6 118.11 0)
 			(effects
 				(font
@@ -18090,7 +18090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -18592,7 +18592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 215.9 102.87 0)
 			(effects
 				(font
@@ -18743,7 +18743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:TS-1088R-02026"
+		(property "Footprint" "kbd:TS-1088R-02026"
 			(at 195.58 43.18 0)
 			(effects
 				(font
@@ -18968,7 +18968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 241.3 148.59 0)
 			(effects
 				(font
@@ -19460,7 +19460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:TS-1088R-02026"
+		(property "Footprint" "kbd:TS-1088R-02026"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -19974,7 +19974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -20707,7 +20707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 254 118.11 0)
 			(effects
 				(font
@@ -20928,7 +20928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:PJ-398A-5A_PJ-399B-6A"
+		(property "Footprint" "kbd:PJ-398A-5A_PJ-399B-6A"
 			(at 272.415 36.83 0)
 			(effects
 				(font
@@ -21007,7 +21007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd:keyswitch_choc12_hotswap_1u"
 			(at 228.6 133.35 0)
 			(effects
 				(font
@@ -21297,7 +21297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 257.81 0)
 			(effects
 				(font

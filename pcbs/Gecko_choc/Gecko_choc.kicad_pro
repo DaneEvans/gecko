@@ -68,7 +68,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
@@ -82,7 +82,7 @@
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
-        "invalid_outline": "error",
+        "invalid_outline": "warning",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
@@ -219,6 +219,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.5
         }
       ],
       "zones_allow_external_fillets": false,

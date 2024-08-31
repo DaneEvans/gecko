@@ -2419,197 +2419,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -6376,12 +6185,6 @@
 		(uuid "85a6456c-2f96-4b87-af61-b3c11bbb5e04")
 	)
 	(junction
-		(at 203.2 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88c2515a-7851-4adb-a287-ee9f389485c0")
-	)
-	(junction
 		(at 241.3 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6560,7 +6363,7 @@
 		(uuid "52676bab-7975-4987-a80f-06fc16f6b2c6")
 	)
 	(no_connect
-		(at 279.4 234.95)
+		(at 187.96 252.73)
 		(uuid "7eee2b16-1d7f-4864-bb04-6692a3387996")
 	)
 	(no_connect
@@ -6776,16 +6579,6 @@
 			(type default)
 		)
 		(uuid "2abe2058-f82a-4cfa-94bb-063363610c37")
-	)
-	(wire
-		(pts
-			(xy 177.8 193.04) (xy 203.2 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db406ae-2a4f-4d92-8d08-ea9c84b2358e")
 	)
 	(wire
 		(pts
@@ -7136,16 +6929,6 @@
 			(type default)
 		)
 		(uuid "793e9507-c91a-46ad-beed-193a2c70d546")
-	)
-	(wire
-		(pts
-			(xy 177.8 193.04) (xy 177.8 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7957904e-be19-4fb8-901a-615cad826f14")
 	)
 	(wire
 		(pts
@@ -7689,6 +7472,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 270.51) (xy 264.16 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d901aec5-ed4d-49c0-b8f7-9a9bc884e55c")
+	)
+	(wire
+		(pts
 			(xy 248.92 200.66) (xy 264.16 200.66)
 		)
 		(stroke
@@ -7866,16 +7659,6 @@
 			(type default)
 		)
 		(uuid "f9401852-cdad-4771-97ab-c0c1c750588c")
-	)
-	(wire
-		(pts
-			(xy 187.96 252.73) (xy 177.8 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb261d58-3672-43f9-8c91-c595b374fac5")
 	)
 	(wire
 		(pts
@@ -8946,13 +8729,13 @@
 		(uuid "b6a5193f-4dd2-4b74-80ac-9110be638b04")
 	)
 	(label "LED"
-		(at 264.16 270.51 270)
+		(at 278.13 270.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bacad257-bf47-4ade-9ffb-ebabd602acd7")
 	)
@@ -20073,82 +19856,6 @@
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 203.2 196.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1535859-7276-473f-8e49-0d652b00c107")
-		(property "Reference" "rJP1"
-			(at 205.74 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 205.74 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 203.2 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d4db438-4ee6-46e7-ac90-a656be7be963")
-		)
-		(pin "2"
-			(uuid "c535078a-53b8-445e-8e36-115738e05889")
-		)
-		(instances
-			(project "right"
-				(path "/04ecfb8d-8dc8-41d9-b176-68a9b73f1e5e"
-					(reference "rJP1")
-					(unit 1)
-				)
-			)
-			(project "Gecko_choc"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/50d96a5e-3d25-4129-9495-15388c76587f"
-					(reference "rJP1")
 					(unit 1)
 				)
 			)

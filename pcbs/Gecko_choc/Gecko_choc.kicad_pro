@@ -102,7 +102,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "ignore",
         "text_height": "ignore",
         "text_thickness": "ignore",

@@ -16,16 +16,16 @@
     },
     "selection_filter": {
       "dimensions": true,
-      "footprints": false,
+      "footprints": true,
       "graphics": true,
       "keepouts": true,
       "lockedItems": true,
       "otherItems": true,
-      "pads": false,
+      "pads": true,
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       0,
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "0021d00_80000001",
     "zone_display_mode": 0
   },
   "git": {

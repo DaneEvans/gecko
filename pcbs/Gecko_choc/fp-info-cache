@@ -1,4 +1,4 @@
-23755620509727128
+23762521245574483
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96593,6 +96593,20 @@ Breakaway_Tabs
 0
 0
 kbd
+GECKO_logo
+
+
+0
+0
+0
+kbd
+GECKO_name
+
+
+0
+0
+0
+kbd
 LED_WS2812B-PLCC4
 http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
 LED NeoPixel
@@ -96706,6 +96720,20 @@ corne-logo-silk
 0
 kbd
 corne-mask
+
+
+0
+0
+0
+kbd
+gecko-copper_No_mask
+
+
+0
+0
+0
+kbd
+gecko-copper_No_mask_small
 
 
 0

@@ -10842,7 +10842,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW21")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -10857,7 +10857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c75428b-f36a-4bd0-bc99-d3bd5afb0ae4")
-		(property "Reference" "SW22"
+		(property "Reference" "SW17"
 			(at 200.66 147.574 0)
 			(effects
 				(font
@@ -10909,7 +10909,7 @@
 		(instances
 			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW22")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -11198,7 +11198,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW19")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -11665,7 +11665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c099181-0bdc-4ce4-aa4d-05f62f0a50d2")
-		(property "Reference" "SW23"
+		(property "Reference" "SW16"
 			(at 214.63 147.574 0)
 			(effects
 				(font
@@ -11717,7 +11717,7 @@
 		(instances
 			(project "Gecko_choc"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW23")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -12353,7 +12353,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW17")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -13533,7 +13533,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW16")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -13817,7 +13817,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW18")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -17781,7 +17781,7 @@
 					(unit 1)
 				)
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
-					(reference "SW20")
+					(reference "SW22")
 					(unit 1)
 				)
 			)

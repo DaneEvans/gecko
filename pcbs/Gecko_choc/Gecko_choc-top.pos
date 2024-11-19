@@ -1,0 +1,32 @@
+### Footprint positions - created on 2024-09-02T22:03:52+1000 ###
+### Printed by KiCad version 8.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                          PosX       PosY       Rot  Side
+BT1       Breakaway_Tabs  Breakaway_Tabs              -258.0959    59.1640    0.0000  top
+BT2       Breakaway_Tabs  Breakaway_Tabs              -219.9959    59.1640    0.0000  top
+BT3       Breakaway_Tabs  Breakaway_Tabs              -270.1209   -23.2179    0.0000  top
+BT4       Breakaway_Tabs  Breakaway_Tabs              -283.4709   -23.1679    0.0000  top
+G***      LOGO            gecko-copper_No_mask_small  -289.8645    -6.4500    0.0000  top
+G***      LOGO            gecko-copper_No_mask_small   -43.8645    -6.4500    0.0000  top
+G***      LOGO            gecko-copper_No_mask_small  -155.3645     0.1500    0.0000  top
+G***      LOGO            gecko-copper_No_mask_small  -177.7835     0.2926    0.0000  top
+J3        Conn_01x04      OLED                        -179.1209     4.1500    0.0000  top
+RE1       EC05E_vert      rotary_encoder_EC05E_Vert   -177.9209    26.2500    0.0000  top
+RE1-2     EC05E           rotary_encoder_EC05E        -187.2209    28.5500  -90.0000  top
+RE1-3     EC05E           rotary_encoder_EC05E        -243.7209   -13.9798  180.0000  top
+RE2       EC05E_vert      rotary_encoder_EC05E_Vert   -177.9209    12.9500    0.0000  top
+RE2-2     EC05E           rotary_encoder_EC05E        -187.2209    12.5500  -90.0000  top
+RE2-3     EC05E           rotary_encoder_EC05E        -243.7209   -16.4548    0.0000  top
+rBT1      Breakaway_Tabs  Breakaway_Tabs               -75.6331    59.1640    0.0000  top
+rBT2      Breakaway_Tabs  Breakaway_Tabs              -113.7331    59.1640    0.0000  top
+rBT3      Breakaway_Tabs  Breakaway_Tabs               -50.2831   -23.2179    0.0000  top
+rBT4      Breakaway_Tabs  Breakaway_Tabs               -63.5831   -23.2179    0.0000  top
+rJ3       Conn_01x04      OLED                        -154.6081     4.1500    0.0000  top
+rRE1      EC05E_vert      rotary_encoder_EC05E_Vert   -155.8081    26.2500    0.0000  top
+rRE1-2    EC05E           rotary_encoder_EC05E        -146.5081    28.5500   90.0000  top
+rRE1-3    EC05E           rotary_encoder_EC05E         -90.0081   -13.9798  180.0000  top
+rRE2      EC05E_vert      rotary_encoder_EC05E_Vert   -155.8081    12.9500    0.0000  top
+rRE2-2    EC05E           rotary_encoder_EC05E        -146.5081    12.5500   90.0000  top
+rRE2-3    EC05E           rotary_encoder_EC05E         -90.0081   -16.4548    0.0000  top
+## End
